@@ -1,0 +1,21 @@
+{
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"gulp.autoDetect": "off",
+		"jake.autoDetect": "off",
+		"grunt.autoDetect": "off",
+		"omnisharp.useModernNet": true,
+		"dotnet.defaultSolution": "vscodetest.sln"
+	},
+	"folders": [
+		{
+			"name": "vscodetest",
+			"path": "."
+		},
+		{
+			"name": "Flax",
+			"path": "/mnt/hdd1/Projects/git-zode/FlaxEngine"
+		}
+	]
+}

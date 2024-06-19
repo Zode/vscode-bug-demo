@@ -1,0 +1,129 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "coreclr",
+			"name": "vscodetest|Game.Linux.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "vscodetest|Game.Linux.Debug|x64",
+			"cwd": "/mnt/hdd1/Projects/flax/vscodetest",
+			"program": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Debug/FlaxEditor",
+			"args": [
+				"-project",
+				"/mnt/hdd1/Projects/flax/vscodetest",
+				"-skipCompile"
+			]
+		},
+		{
+			"type": "coreclr",
+			"name": "vscodetest|Game.Linux.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "vscodetest|Game.Linux.Development|x64",
+			"cwd": "/mnt/hdd1/Projects/flax/vscodetest",
+			"program": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Development/FlaxEditor",
+			"args": [
+				"-project",
+				"/mnt/hdd1/Projects/flax/vscodetest",
+				"-skipCompile"
+			]
+		},
+		{
+			"type": "coreclr",
+			"name": "vscodetest|Game.Linux.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "vscodetest|Game.Linux.Release|x64",
+			"cwd": "/mnt/hdd1/Projects/flax/vscodetest",
+			"program": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Release/FlaxEditor",
+			"args": [
+				"-project",
+				"/mnt/hdd1/Projects/flax/vscodetest",
+				"-skipCompile"
+			]
+		},
+		{
+			"type": "coreclr",
+			"name": "vscodetest|Editor.Linux.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "vscodetest|Editor.Linux.Debug|x64",
+			"cwd": "/mnt/hdd1/Projects/flax/vscodetest",
+			"program": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Debug/FlaxEditor",
+			"args": [
+				"-project",
+				"/mnt/hdd1/Projects/flax/vscodetest",
+				"-skipCompile"
+			]
+		},
+		{
+			"type": "coreclr",
+			"name": "vscodetest|Editor.Linux.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "vscodetest|Editor.Linux.Development|x64",
+			"cwd": "/mnt/hdd1/Projects/flax/vscodetest",
+			"program": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Development/FlaxEditor",
+			"args": [
+				"-project",
+				"/mnt/hdd1/Projects/flax/vscodetest",
+				"-skipCompile"
+			]
+		},
+		{
+			"type": "coreclr",
+			"name": "vscodetest|Editor.Linux.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "vscodetest|Editor.Linux.Release|x64",
+			"cwd": "/mnt/hdd1/Projects/flax/vscodetest",
+			"program": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Release/FlaxEditor",
+			"args": [
+				"-project",
+				"/mnt/hdd1/Projects/flax/vscodetest",
+				"-skipCompile"
+			]
+		},
+		{
+			"type": "cppdbg",
+			"name": "vscodetest (Attach Editor)",
+			"request": "attach",
+			"processId": "${command:pickProcess}",
+			"MIMode": "gdb",
+			"setupCommands": [
+				{
+					"description": "Enable pretty-printing for gdb",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				},
+				{
+					"description": "ignore SIG34 signal",
+					"text": "handle SIG34 nostop noprint pass"
+				},
+				{
+					"description": "ignore SIG35 signal",
+					"text": "handle SIG35 nostop noprint pass"
+				},
+				{
+					"description": "ignore SIG36 signal",
+					"text": "handle SIG36 nostop noprint pass"
+				},
+				{
+					"description": "ignore SIG357 signal",
+					"text": "handle SIG37 nostop noprint pass"
+				}
+			],
+			"visualizerFile": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Source/flax.natvis"
+		},
+		{
+			"type": "cppvsdbg",
+			"name": "vscodetest (Attach Editor)",
+			"request": "attach",
+			"processId": "${command:pickProcess}",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"visualizerFile": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Source/flax.natvis"
+		},
+		{
+			"type": "coreclr",
+			"name": "vscodetest (C# Attach Editor)",
+			"request": "attach",
+			"processName": "FlaxEditor"
+		}
+	]
+}

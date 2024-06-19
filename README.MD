@@ -1,0 +1,1 @@
+Provides a minimal demo project for Flax Engine which reproduces a bug in vscode/c#

@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Game": {
+      "commandName": "Executable",
+      "workingDirectory": "/mnt/hdd1/Projects/flax/vscodetest",
+      "executablePath": "/mnt/hdd1/Projects/git-zode/FlaxEngine/Binaries/Editor/Linux/Development/FlaxEditor",
+      "commandLineArgs": "-project \"/mnt/hdd1/Projects/flax/vscodetest\"",
+      "nativeDebugging": false
+    }
+  }
+}

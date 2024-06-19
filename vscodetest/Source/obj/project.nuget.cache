@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H47CZf4SNCqZqTa6fmwB+avTe9osnZjo4sqv9IhCg+pqx0G/N5fQCeI6wOUqDxgK7jBole6/Stnf7rLw5ikRNQ==",
+  "success": true,
+  "projectFilePath": "/mnt/hdd1/Projects/flax/vscodetest/Source/Game.csproj",
+  "expectedPackageFiles": [
+    "/home/zode/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
